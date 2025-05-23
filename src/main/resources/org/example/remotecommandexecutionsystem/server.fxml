@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="525.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.remotecommandexecutionsystem.controller.ServerController">
+   <children>
+      <Label layoutX="141.0" layoutY="54.0" text="Server" textFill="#1ec3dc">
+         <font>
+            <Font name="Arial Bold" size="43.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtServerStatus" layoutX="34.0" layoutY="113.0" prefHeight="359.0" prefWidth="407.0" />
+      <Button layoutX="300.0" layoutY="61.0" mnemonicParsing="false" onAction="#btnAddClientOnAction" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: #1ec3dc;" text="Add client" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
